@@ -17,8 +17,8 @@ keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- incremen
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
 
 -- set buffer keymap
-keymap.set("n", "<leader>bn", ":bprevious<CR>", { desc = "Buffer previous" })
-keymap.set("n", "<leader>bp", ":bnext<CR>", { desc = "Buffer next" })
+keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Buffer previous" })
+keymap.set("n", "<leader>bn", ":bnext<CR>", { desc = "Buffer next" })
 keymap.set("n", "<leader>b^", ":bfirst<CR>", { desc = "Buffer first" })
 keymap.set("n", "<leader>b$", ":blast<CR>", { desc = "Buffer last" })
 
